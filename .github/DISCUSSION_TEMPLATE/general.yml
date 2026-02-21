@@ -1,0 +1,15 @@
+title: "[Discussion]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to Ironbark discussions. Ask questions, share feedback, or connect with the community.
+
+  - type: textarea
+    id: body
+    attributes:
+      label: What's on your mind?
+      description: Share your question, idea, or feedback.
+    validations:
+      required: true

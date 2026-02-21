@@ -1,0 +1,90 @@
+Ironbark - Enterprise AI Agent Platform
+Copyright (c) 2025 VINDCOM Pty Ltd. All rights reserved.
+
+PROPRIETARY SOFTWARE LICENSE AGREEMENT
+
+IMPORTANT: READ CAREFULLY BEFORE USING THIS SOFTWARE.
+
+1. DEFINITIONS
+
+   "Software" means the Ironbark Enterprise AI Agent Platform, including all
+   source code, object code, documentation, and associated materials.
+
+   "Licensor" means VINDCOM Pty Ltd ("VINDCOM").
+
+   "Licensee" means the individual or entity that has entered into a valid
+   license agreement with the Licensor.
+
+2. GRANT OF LICENSE
+
+   Subject to the terms of this Agreement and a valid subscription or license
+   agreement, the Licensor grants the Licensee a limited, non-exclusive,
+   non-transferable, revocable license to use the Software solely for the
+   Licensee's internal business purposes.
+
+3. RESTRICTIONS
+
+   The Licensee shall NOT:
+   (a) Copy, modify, or create derivative works of the Software except as
+       expressly permitted under a valid license agreement;
+   (b) Distribute, sublicense, lease, rent, or lend the Software to any
+       third party;
+   (c) Reverse engineer, decompile, or disassemble the Software, except to
+       the extent expressly permitted by applicable law;
+   (d) Remove, alter, or obscure any proprietary notices, labels, or marks
+       on the Software;
+   (e) Use the Software to build a competing product or service.
+
+4. INTELLECTUAL PROPERTY
+
+   The Software is protected by copyright laws and international treaties.
+   The Licensor retains all right, title, and interest in and to the Software,
+   including all intellectual property rights therein.
+
+5. THIRD-PARTY COMPONENTS
+
+   This Software incorporates open-source components licensed under their
+   respective terms. See the THIRD_PARTY_LICENSES file for full attribution
+   and license texts. Nothing in this Agreement limits the rights granted
+   under those open-source licenses with respect to those specific components.
+
+6. WARRANTY DISCLAIMER
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NONINFRINGEMENT. THE LICENSOR
+   DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE OR UNINTERRUPTED.
+
+7. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+   SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS,
+   REVENUE, DATA, OR USE, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+   OTHERWISE, ARISING OUT OF OR IN CONNECTION WITH THE USE OR INABILITY TO
+   USE THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+   THE LICENSOR'S TOTAL AGGREGATE LIABILITY SHALL NOT EXCEED THE AMOUNT PAID
+   BY THE LICENSEE FOR THE SOFTWARE IN THE TWELVE (12) MONTHS PRECEDING THE
+   CLAIM.
+
+8. TERMINATION
+
+   This license is effective until terminated. The Licensor may terminate this
+   license immediately if the Licensee breaches any term of this Agreement.
+   Upon termination, the Licensee must cease all use of the Software and
+   destroy all copies in their possession.
+
+9. GOVERNING LAW
+
+   This Agreement shall be governed by and construed in accordance with the
+   laws of Queensland, Australia, without regard to its conflict of law
+   provisions. Any disputes arising under this Agreement shall be subject to
+   the exclusive jurisdiction of the courts of Queensland, Australia.
+
+10. ENTIRE AGREEMENT
+
+    This Agreement constitutes the entire agreement between the parties with
+    respect to the Software and supersedes all prior agreements, whether
+    written or oral.
+
+For licensing enquiries: contact@vindcom.com.au
