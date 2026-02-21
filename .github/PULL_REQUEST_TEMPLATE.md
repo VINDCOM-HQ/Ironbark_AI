@@ -4,4 +4,4 @@
 -->
 
 > **Note:** Ironbark is proprietary software. External pull requests are not accepted.
-> Please [open an issue](https://github.com/VINDCOM-HQ/Ironbark_ai/issues/new) instead.
+> Please [open an issue](https://github.com/VINDCOM-HQ/Ironbark_AI/issues/new) instead.

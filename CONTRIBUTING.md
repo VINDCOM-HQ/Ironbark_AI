@@ -6,7 +6,7 @@ Ironbark is proprietary software developed by VINDCOM Pty Ltd. We do not accept 
 
 ### Bug Reports
 
-Found a bug? Please [open an issue](https://github.com/VINDCOM-HQ/Ironbark_ai/issues/new?template=bug_report.yml) with:
+Found a bug? Please [open an issue](https://github.com/VINDCOM-HQ/Ironbark_AI/issues/new?template=bug_report.yml) with:
 
 - A clear description of the problem
 - Steps to reproduce
@@ -15,7 +15,7 @@ Found a bug? Please [open an issue](https://github.com/VINDCOM-HQ/Ironbark_ai/is
 
 ### Feature Requests
 
-Have an idea? [Open a feature request](https://github.com/VINDCOM-HQ/Ironbark_ai/issues/new?template=feature_request.yml) and tell us:
+Have an idea? [Open a feature request](https://github.com/VINDCOM-HQ/Ironbark_AI/issues/new?template=feature_request.yml) and tell us:
 
 - What problem you're trying to solve
 - Your proposed solution
@@ -27,7 +27,7 @@ Please **do not** open a public issue for security vulnerabilities. Instead, ema
 
 ### Questions & Discussion
 
-For general questions, support, and community discussion, use [GitHub Discussions](https://github.com/VINDCOM-HQ/Ironbark_ai/discussions).
+For general questions, support, and community discussion, use [GitHub Discussions](https://github.com/VINDCOM-HQ/Ironbark_AI/discussions).
 
 ## Contact
 
