@@ -4,7 +4,7 @@ contact_links:
     url: mailto:security@vindcom.com.au
     about: Please report security vulnerabilities via email, not as public issues.
   - name: Questions & Discussion
-    url: https://github.com/VINDCOM-HQ/Ironbark_ai/discussions
+    url: https://github.com/VINDCOM-HQ/Ironbark_AI/discussions
     about: Use Discussions for general questions and support.
   - name: Licensing Enquiries
     url: mailto:contact@vindcom.com.au

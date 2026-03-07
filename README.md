@@ -18,6 +18,7 @@
   <a href="#why-ironbark">Why Ironbark</a> &middot;
   <a href="#admin-console">Admin Console</a> &middot;
   <a href="#the-agent">The Agent</a> &middot;
+  <a href="#messaging-integrations">Integrations</a> &middot;
   <a href="#getting-started">Getting Started</a> &middot;
   <a href="#pricing">Pricing</a> &middot;
   <a href="SECURITY.md">Security</a>
@@ -26,7 +27,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/21%2B_AI_providers-supported-4f46e5" alt="Providers" />
   <img src="https://img.shields.io/badge/platforms-linux%20%C2%B7%20macos%20%C2%B7%20windows-0ea5e9" alt="Platform" />
-  <img src="https://img.shields.io/badge/surfaces-CLI%20%C2%B7%20Desktop%20%C2%B7%20Web%20%C2%B7%20VS%20Code-10b981" alt="Surfaces" />
+  <img src="https://img.shields.io/badge/surfaces-CLI%20%C2%B7%20Desktop%20%C2%B7%20Web%20%C2%B7%20VS%20Code%20%C2%B7%20Teams%20%C2%B7%20Slack%20%C2%B7%20Discord-10b981" alt="Surfaces" />
   <img src="https://img.shields.io/badge/auth-Microsoft%20Entra%20ID-dc2626" alt="Auth" />
   <img src="https://img.shields.io/badge/1_agent-free_forever-22c55e" alt="Free tier" />
 </p>
@@ -99,6 +100,8 @@ Ironbark has two halves: the **Admin Console** where your platform team configur
 ┌─────────────────────────────────────────────────────────────────┐
 │                     Ironbark Agent (TUI)                        │
 │  Build  ·  Plan  ·  Explore  ·  Code  ·  Shell  ·  Sub-agents  │
+├─────────────────────────────────────────────────────────────────┤
+│  Desktop  ·  Web  ·  VS Code  ·  Teams  ·  Slack  ·  Discord   │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -294,16 +297,37 @@ Make Ironbark your own with project-level customisations:
 
 <br/>
 
+## Messaging Integrations
+
+Bring AI-assisted development into the tools your team already uses. Each bot connects to the same Admin Console for centralised governance, policy enforcement, and audit logging.
+
+| Platform | Features |
+|----------|----------|
+| **Microsoft Teams** | Conversational AI in channels and DMs, code generation, codebase Q&A |
+| **Slack** | Threaded conversations, slash commands, code snippets with syntax highlighting |
+| **Discord** | Server-based AI assistant, role-based access, thread-aware conversations |
+
+All messaging integrations inherit the same RBAC policies, model restrictions, and audit trail as the TUI agent.
+
+<br/>
+
+---
+
+<br/>
+
 ## Runs Everywhere
 
-| Surface | Technology | Description |
-|---------|-----------|-------------|
-| **CLI / TUI** | Native binary (Bun compiled) | Terminal-first AI agent |
-| **Desktop** | Tauri v2 | Native app for macOS, Linux, Windows |
-| **Web** | SolidJS | Browser-based session management |
-| **VS Code** | Extension | Inline AI in your editor |
-| **SDK** | `@ironbark-ai/sdk` | Build custom integrations |
-| **Plugin** | `@ironbark-ai/plugin` | Extend agent capabilities |
+| Surface | Description |
+|---------|-------------|
+| **CLI / TUI** | Terminal-first AI agent &mdash; single native binary |
+| **Desktop** | Native app for macOS, Linux, Windows |
+| **Web** | Browser-based session management |
+| **VS Code** | Inline AI in your editor |
+| **Microsoft Teams** | AI assistant in channels and DMs |
+| **Slack** | Threaded AI conversations with slash commands |
+| **Discord** | Server-based AI assistant |
+| **SDK** | `@ironbark-ai/sdk` &mdash; build custom integrations |
+| **Plugin** | `@ironbark-ai/plugin` &mdash; extend agent capabilities |
 
 <br/>
 
@@ -318,7 +342,7 @@ Make Ironbark your own with project-level customisations:
 Deploy the admin console, configure your providers, policies, and roles, then distribute pre-configured agent binaries to your team.
 
 ```bash
-docker pull vindcom/ironbark-admin
+docker pull vindcom/ironbark-admin-console
 docker run -p 3000:3000 \
   -e DATABASE_URL="postgres://..." \
   -e REDIS_URL="redis://..." \
@@ -326,7 +350,7 @@ docker run -p 3000:3000 \
   -e ENTRA_CLIENT_ID="..." \
   -e ENTRA_CLIENT_SECRET="..." \
   -e ENCRYPTION_KEY="..." \
-  vindcom/ironbark-admin
+  vindcom/ironbark-admin-console
 ```
 
 **Requirements:** PostgreSQL 15+ &middot; Redis 7+ &middot; Microsoft Entra ID tenant
@@ -403,7 +427,7 @@ To report a vulnerability: **security@vindcom.com.au**
 - Entra ID authentication
 - RBAC, policies, and audit trail
 - MCP integration
-- All platform surfaces (CLI, Desktop, Web, VS Code)
+- All platform surfaces (CLI, Desktop, Web, VS Code, Teams, Slack, Discord)
 
 *Everything you need to evaluate Ironbark with your team.*
 
