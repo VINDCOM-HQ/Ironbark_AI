@@ -27,6 +27,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Changed
 - Admin Console Docker image renamed to `vindcom/ironbark-admin-console`
+- Free tier updated to 5 agent seats (from 1)
+- Provider count updated to 75+ (from 21+)
+- Pricing updated to three tiers: Free ($0, 5 seats), Business ($40/seat), Enterprise ($55/seat)
 - Surfaces badge updated to reflect all 9 platform surfaces
 
 ---
@@ -52,7 +55,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Typing indicators and live progress tracking
 - MCP (Model Context Protocol) integration
 - Project-level extensibility (custom agents, commands, skills, themes, tools)
-- Support for 21+ AI providers
+- Support for 75+ AI providers
 - Cross-platform binaries (Linux, macOS, Windows)
 - TypeScript SDK (`@ironbark-ai/sdk`)
 - Plugin system (`@ironbark-ai/plugin`)

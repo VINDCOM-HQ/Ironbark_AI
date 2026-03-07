@@ -25,11 +25,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/21%2B_AI_providers-supported-4f46e5" alt="Providers" />
+  <img src="https://img.shields.io/badge/75%2B_AI_providers-supported-4f46e5" alt="Providers" />
   <img src="https://img.shields.io/badge/platforms-linux%20%C2%B7%20macos%20%C2%B7%20windows-0ea5e9" alt="Platform" />
   <img src="https://img.shields.io/badge/surfaces-CLI%20%C2%B7%20Desktop%20%C2%B7%20Web%20%C2%B7%20VS%20Code%20%C2%B7%20Teams%20%C2%B7%20Slack%20%C2%B7%20Discord-10b981" alt="Surfaces" />
   <img src="https://img.shields.io/badge/auth-Microsoft%20Entra%20ID-dc2626" alt="Auth" />
-  <img src="https://img.shields.io/badge/1_agent-free_forever-22c55e" alt="Free tier" />
+  <img src="https://img.shields.io/badge/5_agents-free_forever-22c55e" alt="Free tier" />
 </p>
 
 <br/>
@@ -170,10 +170,10 @@ A dedicated dashboard that gives your platform team full control over the AI age
 
 ### Supported Providers
 
-Configure any combination of providers in the admin console. Developers see only what you allow.
+Configure any combination of 75+ providers in the admin console. Developers see only what you allow.
 
 <details>
-<summary><strong>Full provider list (21+)</strong></summary>
+<summary><strong>Full provider list (75+)</strong></summary>
 
 | Provider | Example Models |
 |----------|----------------|
@@ -413,38 +413,55 @@ To report a vulnerability: **security@vindcom.com.au**
 
 ## Pricing
 
+No feature gates. Free and paid plans get the identical platform. The only difference is seat count and support level.
+
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### Free
 
-**1 agent seat** &mdash; free forever. No credit card, no trial period.
+**$0** &mdash; forever
 
+- **5 agent seats**
+- Every platform feature &mdash; no gates
 - Full Admin Console
-- All agent modes (Build, Plan, Explore, General)
-- All 21+ provider integrations
-- Entra ID authentication
-- RBAC, policies, and audit trail
-- MCP integration
+- 75+ AI providers
 - All platform surfaces (CLI, Desktop, Web, VS Code, Teams, Slack, Discord)
+- Community support
 
-*Everything you need to evaluate Ironbark with your team.*
+*No credit card required.*
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Team &amp; Enterprise
+### Business
 
-**Per-agent seat licensing** for teams that need more than one agent.
+**$40** /seat/month
 
-Everything in Free, plus:
+- **Unlimited agent seats**
+- Every platform feature &mdash; no gates
+- Full Admin Console
+- 75+ AI providers
+- All platform surfaces
+- Priority email support
 
-- Unlimited agent seats
-- Priority support
-- Custom SLAs
+</td>
+<td width="33%" valign="top">
 
-For pricing: **contact@vindcom.com.au**
+### Enterprise
+
+**$55** /seat/month
+
+- Every platform feature &mdash; no gates
+- Dedicated support engineer
+- SLA guarantee with custom response times
+- Deployment &amp; infrastructure assistance
+- Security audit &amp; compliance assistance
+- Training &amp; onboarding
+- Volume licensing discounts
+
+For enquiries: **contact@vindcom.com.au**
 
 </td>
 </tr>
